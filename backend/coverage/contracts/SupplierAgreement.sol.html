@@ -1,0 +1,926 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for contracts\SupplierAgreement.sol</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../prettify.css" />
+    <link rel="stylesheet" href="../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../index.html">all files</a> / <a href="index.html">contracts/</a> SupplierAgreement.sol
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">98.48% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>65/66</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">65.52% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>38/58</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>12/12</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">98.85% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>86/87</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line high'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+218
+219
+220
+221
+222
+223
+224
+225
+226
+227
+228
+229
+230
+231
+232
+233
+234
+235
+236
+237
+238
+239
+240
+241
+242
+243
+244
+245
+246
+247
+248
+249
+250
+251
+252
+253
+254
+255
+256
+257
+258
+259
+260
+261
+262
+263
+264
+265
+266
+267
+268
+269
+270
+271
+272
+273
+274
+275
+276
+277
+278
+279
+280
+281
+282
+283
+284
+285
+286
+287
+288</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">21×</span>
+<span class="cline-any cline-yes">21×</span>
+<span class="cline-any cline-yes">21×</span>
+<span class="cline-any cline-yes">21×</span>
+<span class="cline-any cline-yes">21×</span>
+<span class="cline-any cline-yes">21×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">20×</span>
+<span class="cline-any cline-yes">19×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">19×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">19×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">19×</span>
+<span class="cline-any cline-yes">19×</span>
+<span class="cline-any cline-yes">19×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">16×</span>
+<span class="cline-any cline-yes">16×</span>
+<span class="cline-any cline-yes">16×</span>
+<span class="cline-any cline-yes">16×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">10×</span>
+<span class="cline-any cline-yes">10×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">10×</span>
+<span class="cline-any cline-yes">10×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">9×</span>
+<span class="cline-any cline-yes">7×</span>
+<span class="cline-any cline-yes">7×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">7×</span>
+<span class="cline-any cline-yes">7×</span>
+<span class="cline-any cline-yes">7×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">8×</span>
+<span class="cline-any cline-yes">7×</span>
+<span class="cline-any cline-yes">7×</span>
+<span class="cline-any cline-yes">7×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">6×</span>
+<span class="cline-any cline-yes">5×</span>
+<span class="cline-any cline-yes">5×</span>
+<span class="cline-any cline-yes">5×</span>
+<span class="cline-any cline-yes">5×</span>
+<span class="cline-any cline-yes">5×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4×</span>
+<span class="cline-any cline-yes">4×</span>
+<span class="cline-any cline-yes">4×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3×</span>
+<span class="cline-any cline-yes">3×</span>
+<span class="cline-any cline-yes">3×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2×</span>
+<span class="cline-any cline-yes">2×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2×</span>
+<span class="cline-any cline-yes">2×</span>
+<span class="cline-any cline-yes">2×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4×</span>
+<span class="cline-any cline-yes">3×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">8×</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">8×</span>
+<span class="cline-any cline-yes">8×</span>
+<span class="cline-any cline-yes">8×</span>
+<span class="cline-any cline-yes">148×</span>
+<span class="cline-any cline-yes">148×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">8×</span>
+<span class="cline-any cline-yes">8×</span>
+<span class="cline-any cline-yes">8×</span>
+<span class="cline-any cline-yes">148×</span>
+<span class="cline-any cline-yes">148×</span>
+<span class="cline-any cline-yes">148×</span>
+<span class="cline-any cline-yes">148×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">8×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.17;
+&nbsp;
+// Importations OpenZeppelin
+import "@openzeppelin/contracts/access/AccessControl.sol";
+import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
+import "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
+import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+&nbsp;
+/**
+ * @title SupplierAgreement
+ * @notice Ce contrat déploie une plateforme blockchain pour la gestion d'accords fournisseurs,
+ * intégrant des mécanismes de paiement en stablecoins, de confidentialité avancée (proofs ZK conceptuelles)
+ * et émettant des événements pour faciliter l'interopérabilité avec des systèmes externes (ERP).
+ */
+contract SupplierAgreement is AccessControl, ReentrancyGuard {
+    using SafeERC20 for IERC20;
+&nbsp;
+    // Rôles
+    bytes32 public constant ORACLE_ROLE = keccak256("ORACLE_ROLE");
+    bytes32 public constant ARBITRATOR_ROLE = keccak256("ARBITRATOR_ROLE");
+&nbsp;
+    // États du workflow de l'accord
+    enum AgreementState {
+        Negotiation,
+        PendingPayment,
+        Pending,
+        InProgress,
+        Dispatched,
+        Completed,
+        Disputed,
+        Cancelled
+    }
+&nbsp;
+    /**
+     * @notice Structure regroupant les paramètres essentiels d'un accord.
+     */
+    struct AgreementDetails {
+        uint256 quantity;
+        uint256 price;
+        uint256 deadline;       // Timestamp d'échéance
+        string ipfsHash;        // Stockage du hash (ex. document contractuel chiffré)
+        AgreementState state;
+    }
+    // Un seul accord est géré dans ce contrat
+    AgreementDetails public agreement;
+&nbsp;
+    // Adresse du buyer (celui qui initie l'accord)
+    address public buyer;
+&nbsp;
+    /**
+     * @notice Structure représentant les informations sur un fournisseur.
+     */
+    struct SupplierInfo {
+        bool accepted;
+        uint8 rating;  // Note (1 à 5)
+    }
+    mapping(address =&gt; SupplierInfo) public suppliers;
+    address[] public supplierList;
+&nbsp;
+    // Adresse du contrat OracleMock
+    address public oracleAddress;
+&nbsp;
+    // Interface du token stablecoin utilisé pour les paiements (ERC20)
+    IERC20 public paymentToken;
+&nbsp;
+    // Montant déposé en escrow
+    uint256 public escrowAmount;
+&nbsp;
+    // Événements pour la traçabilité et l'interopérabilité ERP
+    event AgreementCreated(uint256 quantity, uint256 price, uint256 deadline, string ipfsHash);
+    event AgreementStatusChanged(AgreementState indexed newState);
+    event PaymentConfirmed(address indexed buyer, uint256 amount);
+    event OrderDispatched(address indexed supplier);
+    event DeliveryUpdated(bool success);
+    event DisputeResolved(string decision);
+    event SupplierRated(address indexed supplier, uint8 rating);
+    event SustainabilityMetricsRecorded(
+        address indexed supplier,
+        uint256 carbonFootprint,
+        uint256 energyConsumption,
+        uint8 recycledMaterialUsage
+    );
+    event ZKProofSubmitted(address indexed supplier, bytes zkProof);
+    // Événement destiné aux systèmes ERP
+    event ERPDataUpdate(string eventType, string data);
+&nbsp;
+    /**
+     * @notice Constructeur qui initialise les rôles, l'oracle et le token de paiement.
+     * @param _oracle Adresse du compte Oracle.
+     * @param _arbitrator Adresse du compte Arbitrator.
+     * @param _oracleAddress Adresse du contrat OracleMock.
+     * @param _tokenAddress Adresse du token stablecoin (par exemple, USDC).
+     */
+    constructor(address _oracle, address _arbitrator, address _oracleAddress, address _tokenAddress) {
+        _grantRole(DEFAULT_ADMIN_ROLE, msg.sender);
+        _grantRole(ORACLE_ROLE, _oracle);
+        _grantRole(ARBITRATOR_ROLE, _arbitrator);
+        buyer = msg.sender;
+        oracleAddress = _oracleAddress;
+        paymentToken = IERC20(_tokenAddress);
+    }
+&nbsp;
+    /**
+     * @notice Permet au buyer de créer un accord.
+     */
+    function createAgreement(uint256 _quantity, uint256 _price, uint256 _deadline, string calldata _ipfsHash) external {
+        require(msg.sender == buyer, unicode"Seul le buyer peut créer un accord");
+        <span class="missing-if-branch" title="else path not taken" >E</span>require(
+            agreement.state == AgreementState.Negotiation || <span class="branch-1 cbranch-no" title="branch not covered" >agreement.state == AgreementState.Cancelled</span>,
+            unicode"État invalide pour la création"
+        );
+        <span class="missing-if-branch" title="else path not taken" >E</span>require(_deadline &gt; block.timestamp, unicode"La deadline doit être dans le futur");
+&nbsp;
+        agreement = AgreementDetails({
+            quantity: _quantity,
+            price: _price,
+            deadline: _deadline,
+            ipfsHash: _ipfsHash,
+            state: AgreementState.Negotiation
+        });
+        emit AgreementCreated(_quantity, _price, _deadline, _ipfsHash);
+        emit AgreementStatusChanged(AgreementState.Negotiation);
+        emit ERPDataUpdate("AgreementCreated", _ipfsHash);
+    }
+&nbsp;
+    /**
+     * @notice Permet à un fournisseur d'accepter l'accord en cours.
+     */
+    function acceptAgreement() external {
+        <span class="missing-if-branch" title="else path not taken" >E</span>require(agreement.state == AgreementState.Negotiation, unicode"Accord non en état de Negotiation");
+        <span class="missing-if-branch" title="else path not taken" >E</span>if (!suppliers[msg.sender].accepted) {
+            suppliers[msg.sender].accepted = true;
+            supplierList.push(msg.sender);
+        }
+    }
+&nbsp;
+    /**
+     * @notice Le buyer confirme le paiement via stablecoin.
+     */
+   function confirmPayment(uint256 _paymentAmount) external <span class="missing-if-branch" title="else path not taken" >E</span>nonReentrant {
+    <span class="missing-if-branch" title="else path not taken" >E</span>require(msg.sender == buyer, unicode"Seul le buyer peut confirmer le paiement");
+    <span class="missing-if-branch" title="else path not taken" >E</span>require(agreement.state == AgreementState.Negotiation, unicode"L'accord doit être en état de Negotiation");
+&nbsp;
+    uint256 requiredAmount = agreement.price * agreement.quantity;
+    require(_paymentAmount == requiredAmount, unicode"Montant insuffisant pour l’accord");
+&nbsp;
+    paymentToken.safeTransferFrom(msg.sender, address(this), _paymentAmount);
+    escrowAmount = _paymentAmount;
+    agreement.state = AgreementState.PendingPayment;
+&nbsp;
+    emit PaymentConfirmed(msg.sender, _paymentAmount);
+    emit AgreementStatusChanged(AgreementState.PendingPayment);
+    emit ERPDataUpdate("PaymentConfirmed", uint2str(_paymentAmount));
+}
+&nbsp;
+&nbsp;
+    /**
+     * @notice Permet de démarrer l'accord.
+     */
+    function startAgreement() external {
+        require(block.timestamp &lt;= agreement.deadline, unicode"La deadline est dépassée");
+        agreement.state = AgreementState.Pending;
+        emit AgreementStatusChanged(AgreementState.Pending);
+        emit ERPDataUpdate("StartAgreement", "Order started");
+    }
+&nbsp;
+    /**
+     * @notice Permet à un fournisseur de confirmer l'envoi de la marchandise.
+     */
+    function dispatchOrder() external {
+        require(suppliers[msg.sender].accepted, unicode"Fournisseur non valide");
+        <span class="missing-if-branch" title="else path not taken" >E</span>require(agreement.state == AgreementState.Pending, unicode"État invalide pour l'envoi");
+        agreement.state = AgreementState.Dispatched;
+        emit OrderDispatched(msg.sender);
+        emit AgreementStatusChanged(AgreementState.Dispatched);
+        emit ERPDataUpdate("OrderDispatched", "Order dispatched");
+    }
+&nbsp;
+    /**
+     * @notice Permet à l'oracle de mettre à jour l'état de la livraison.
+     */
+    function updateDeliveryStatus(bool _deliverySuccessful) external <span class="missing-if-branch" title="else path not taken" >E</span>nonReentrant <span class="missing-if-branch" title="else path not taken" >E</span>onlyRole(ORACLE_ROLE) {
+        <span class="missing-if-branch" title="else path not taken" >E</span>require(agreement.state == AgreementState.Dispatched, unicode"État invalide pour la livraison");
+        emit DeliveryUpdated(_deliverySuccessful);
+        if (_deliverySuccessful) {
+            agreement.state = AgreementState.Completed;
+            <span class="missing-if-branch" title="else path not taken" >E</span>if (supplierList.length &gt; 0) {
+                paymentToken.safeTransfer(supplierList[0], escrowAmount);
+            }
+            escrowAmount = 0;
+            emit AgreementStatusChanged(AgreementState.Completed);
+            emit ERPDataUpdate("DeliverySuccess", unicode"Fonds libérés au fournisseur");
+        } else {
+            agreement.state = AgreementState.Disputed;
+            emit AgreementStatusChanged(AgreementState.Disputed);
+            emit ERPDataUpdate("DeliveryFailed", "Commande en litige");
+        }
+    }
+&nbsp;
+    /**
+     * @notice Permet à l'arbitre de résoudre un litige.
+     */
+    function resolveDispute(string calldata _decision) external <span class="missing-if-branch" title="else path not taken" >E</span>nonReentrant <span class="missing-if-branch" title="else path not taken" >E</span>onlyRole(ARBITRATOR_ROLE) {
+        <span class="missing-if-branch" title="else path not taken" >E</span>require(agreement.state == AgreementState.Disputed, unicode"État invalide pour la résolution du litige");
+        if (keccak256(bytes(_decision)) == keccak256(bytes("RefundBuyer"))) {
+            agreement.state = AgreementState.Cancelled;
+            paymentToken.safeTransfer(buyer, escrowAmount);
+            escrowAmount = 0;
+        } else <span class="missing-if-branch" title="else path not taken" >E</span>if (keccak256(bytes(_decision)) == keccak256(bytes("ReleaseFunds"))) {
+            agreement.state = AgreementState.Completed;
+            <span class="missing-if-branch" title="else path not taken" >E</span>if (supplierList.length &gt; 0) {
+                paymentToken.safeTransfer(supplierList[0], escrowAmount);
+            }
+            escrowAmount = 0;
+        }
+        emit DisputeResolved(_decision);
+        emit AgreementStatusChanged(agreement.state);
+        emit ERPDataUpdate("DisputeResolved", _decision);
+    }
+&nbsp;
+    /**
+     * @notice Permet au buyer d'évaluer un fournisseur.
+     */
+    function rateSupplier(address _supplier, uint8 _rating) external {
+        require(msg.sender == buyer, unicode"Seul le buyer peut noter");
+        require(_rating &gt;= 1 &amp;&amp; _rating &lt;= 5, unicode"La note doit être entre 1 et 5");
+        <span class="missing-if-branch" title="else path not taken" >E</span>require(suppliers[_supplier].accepted, unicode"Fournisseur non engagé");
+        suppliers[_supplier].rating = _rating;
+        emit SupplierRated(_supplier, _rating);
+        emit ERPDataUpdate("SupplierRated", uint2str(_rating));
+    }
+&nbsp;
+    /**
+     * @notice Interroge l'oracle simulé pour obtenir la donnée actuelle.
+     */
+    function getOracleData() public view returns (int256 answer) {
+        (, int256 _answer, , , ) = IOracleMock(oracleAddress).latestRoundData();
+        return _answer;
+    }
+&nbsp;
+    /**
+     * @notice Soumet une preuve Zero-Knowledge (conceptuelle).
+     */
+    function submitZKProof(bytes calldata zkProof) external {
+        require(suppliers[msg.sender].accepted, unicode"Fournisseur non engagé");
+        emit ZKProofSubmitted(msg.sender, zkProof);
+        emit ERPDataUpdate("ZKProofSubmitted", "ZKP proof submitted");
+    }
+&nbsp;
+    /**
+     * @notice Fonction utilitaire pour convertir un uint en string.
+     */
+    function uint2str(uint _i) internal pure returns (string memory _uintAsString) {
+        <span class="missing-if-branch" title="if path not taken" >I</span>if (_i == 0) {
+<span class="cstat-no" title="statement not covered" >            return "0";</span>
+        }
+        uint j = _i;
+        uint len;
+        while (j != 0) {
+            len++;
+            j /= 10;
+        }
+        bytes memory bstr = new bytes(len);
+        uint k = len;
+        while (_i != 0) {
+            k = k - 1;
+            uint8 temp = uint8(48 + _i % 10);
+            bstr[k] = bytes1(temp);
+            _i /= 10;
+        }
+        return string(bstr);
+    }
+}
+&nbsp;
+/**
+ * @dev Interface minimale pour interagir avec le contrat OracleMock.
+ */
+interface IOracleMock {
+    function latestRoundData() external view returns (
+        uint80,
+        int256,
+        uint256,
+        uint256,
+        uint80
+    );
+}
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="http://istanbul-js.org/" target="_blank">istanbul</a> at Fri Apr 11 2025 19:32:45 GMT+0100 (heure normale d’Afrique de l’Ouest)
+</div>
+</div>
+<script src="../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../sorter.js"></script>
+</body>
+</html>

@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for contracts\Litige.sol</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../prettify.css" />
+    <link rel="stylesheet" href="../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../index.html">all files</a> / <a href="index.html">contracts/</a> Litige.sol
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>0/15</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/16</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/5</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>0/24</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.17;
+&nbsp;
+import "@openzeppelin/contracts/access/AccessControl.sol";
+&nbsp;
+/**
+ * @title Litige
+ * @notice Ce contrat gère la résolution décentralisée des litiges via un système de vote.
+ */
+contract Litige is AccessControl {
+    bytes32 public constant ARBITER_ROLE = keccak256("ARBITER_ROLE");
+&nbsp;
+    enum DisputeOutcome { Pending, RefundBuyer, ReleaseFunds }
+    
+    struct Dispute {
+        address initiator;
+        uint256 agreementId;
+        DisputeOutcome outcome;
+        uint256 votesRefund;
+        uint256 votesRelease;
+        bool resolved;
+        mapping(address =&gt; bool) hasVoted;
+    }
+&nbsp;
+    uint256 public disputeCount;
+    mapping(uint256 =&gt; Dispute) public disputes;
+&nbsp;
+    event DisputeInitiated(uint256 disputeId, address initiator, uint256 agreementId);
+    event VoteCast(uint256 disputeId, address voter, DisputeOutcome vote);
+    event DisputeResolved(uint256 disputeId, DisputeOutcome outcome);
+&nbsp;
+<span class="fstat-no" title="function not covered" >    constructor() {</span>
+<span class="cstat-no" title="statement not covered" >        _grantRole(DEFAULT_ADMIN_ROLE, msg.sender)</span>;
+<span class="cstat-no" title="statement not covered" >        _grantRole(ARBITER_ROLE, msg.sender)</span>;
+    }
+&nbsp;
+    /**
+     * @notice Initie un nouveau litige pour un accord donné.
+     * @param agreementId L'identifiant de l'accord concerné.
+     */
+<span class="fstat-no" title="function not covered" >    function initiateDispute(uint256 agreementId) external returns (uint256) {</span>
+        disputeCount++;
+<span class="cstat-no" title="statement not covered" >        Dispute storage d = disputes[disputeCount];</span>
+        d.initiator = msg.sender;
+        d.agreementId = agreementId;
+        d.outcome = DisputeOutcome.Pending;
+        d.resolved = false;
+<span class="cstat-no" title="statement not covered" >        emit DisputeInitiated(disputeCount, msg.sender, agreementId);</span>
+<span class="cstat-no" title="statement not covered" >        return disputeCount;</span>
+    }
+&nbsp;
+    /**
+     * @notice Permet aux arbitres de voter sur un litige.
+     * @param disputeId L'identifiant du litige.
+     * @param voteOutcome Le vote (RefundBuyer ou ReleaseFunds).
+     */
+<span class="fstat-no" title="function not covered" >    function voteOnDispute(uint256 disputeId, DisputeOutcome voteOutcome) external onlyRole(ARBITER_ROLE) {</span>
+<span class="cstat-no" title="statement not covered" >        Dispute storage d = disputes[disputeId];</span>
+<span class="cstat-no" title="statement not covered" >        require(!d.resolved, "Dispute already resolved")</span>;
+<span class="cstat-no" title="statement not covered" >        require(!d.hasVoted[msg.sender], "Already voted")</span>;
+        d.hasVoted[msg.sender] = true;
+<span class="cstat-no" title="statement not covered" >        if (voteOutcome == DisputeOutcome.RefundBuyer) {</span>
+            d.votesRefund++;
+        } else <span class="cstat-no" title="statement not covered" >if (voteOutcome == DisputeOutcome.ReleaseFunds) {</span>
+            d.votesRelease++;
+        }
+<span class="cstat-no" title="statement not covered" >        emit VoteCast(disputeId, msg.sender, voteOutcome);</span>
+    }
+&nbsp;
+    /**
+     * @notice Finalise le litige en fonction de la majorité des votes.
+     * @param disputeId L'identifiant du litige.
+     */
+<span class="fstat-no" title="function not covered" >    function finalizeDispute(uint256 disputeId) external onlyRole(ARBITER_ROLE) {</span>
+<span class="cstat-no" title="statement not covered" >        Dispute storage d = disputes[disputeId];</span>
+<span class="cstat-no" title="statement not covered" >        require(!d.resolved, "Already resolved")</span>;
+        d.outcome = (d.votesRefund &gt;= d.votesRelease) ? DisputeOutcome.RefundBuyer : DisputeOutcome.ReleaseFunds;
+        d.resolved = true;
+<span class="cstat-no" title="statement not covered" >        emit DisputeResolved(disputeId, d.outcome);</span>
+    }
+&nbsp;
+    /**
+     * @notice Récupère le résultat du litige.
+     * @param disputeId L'identifiant du litige.
+     */
+<span class="fstat-no" title="function not covered" >    function getDisputeOutcome(uint256 disputeId) external view returns (DisputeOutcome) {</span>
+<span class="cstat-no" title="statement not covered" >        return disputes[disputeId].outcome;</span>
+    }
+}
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="http://istanbul-js.org/" target="_blank">istanbul</a> at Fri Apr 11 2025 19:32:45 GMT+0100 (heure normale d’Afrique de l’Ouest)
+</div>
+</div>
+<script src="../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../sorter.js"></script>
+</body>
+</html>

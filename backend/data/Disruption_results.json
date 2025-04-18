@@ -1,0 +1,1702 @@
+[
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        null,
+        null,
+        null
+      ],
+      "cost": 0.6,
+      "quality": 0.4,
+      "sustainability": 0.9,
+      "balanceIndex": 0.49467778007243524
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0,
+        1,
+        0
+      ],
+      "cost": 0.4,
+      "quality": 0.9,
+      "sustainability": 0.3,
+      "balanceIndex": 0.42264973081037438
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        null,
+        null,
+        null
+      ],
+      "cost": 0.6,
+      "quality": 0.4,
+      "sustainability": 0.9,
+      "balanceIndex": 0.49467778007243524
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0,
+        1,
+        0
+      ],
+      "cost": 0.4,
+      "quality": 0.9,
+      "sustainability": 0.3,
+      "balanceIndex": 0.42264973081037438
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.64244970302503024,
+        0,
+        0.35755029697496976
+      ],
+      "cost": 0.935755029697497,
+      "quality": 0.735755029697497,
+      "sustainability": 0.52848994060500609,
+      "balanceIndex": 0.66323853045694214
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.41544740612395781,
+        0.29923476318681841,
+        0.28531783068922389
+      ],
+      "cost": 0.624681999335948,
+      "quality": 0.45357849126589683,
+      "sustainability": 0.83835735815992474,
+      "balanceIndex": 0.60236163177422808
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.80314689802091555,
+        0.19641358225545355,
+        0.00043951972363088718
+      ],
+      "cost": 0.74686202401381818,
+      "quality": 0.64456187404732546,
+      "sustainability": 0.63457612753063875,
+      "balanceIndex": 0.89560845866185979
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.14519638538278382,
+        0.85242640185829244,
+        0.0023772127589237711
+      ],
+      "cost": 0.48858025268366706,
+      "quality": 0.8163337027484876,
+      "sustainability": 0.40806269327406314,
+      "balanceIndex": 0.6226652933713277
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.93463557890629445,
+        0.058687121952743733,
+        0.00667729914096181
+      ],
+      "cost": 0.767150758900872,
+      "quality": 0.5923382454658761,
+      "sustainability": 0.70206002451352156,
+      "balanceIndex": 0.811731987782439
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.588179266895926,
+        0.14591260143187346,
+        0.26590813167220051
+      ],
+      "cost": 0.8440254208753255,
+      "quality": 0.74224218679630627,
+      "sustainability": 0.51789652929329555,
+      "balanceIndex": 0.74066217724462957
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.005806092136108984,
+        0.993111924043684,
+        0.0010819838202070784
+      ],
+      "cost": 0.40968690285101755,
+      "quality": 0.88315623538465882,
+      "sustainability": 0.32052904040237823,
+      "balanceIndex": 0.45729194792489236
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.90096445027442185,
+        0.096877237935577093,
+        0.0021583117900010394
+      ],
+      "cost": 0.73304096192557677,
+      "quality": 0.56887442186150228,
+      "sustainability": 0.725892465624222,
+      "balanceIndex": 0.795897597821235
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.90438967009375826,
+        0.095610329906241784,
+        0
+      ],
+      "cost": 0.77354703220887955,
+      "quality": 0.61959510313519783,
+      "sustainability": 0.67376872768019835,
+      "balanceIndex": 0.8393266351523232
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.99956554287115174,
+        0.00043445712884826481,
+        0
+      ],
+      "cost": 0.70049970048766363,
+      "quality": 0.50060093098925917,
+      "sustainability": 0.7979588044615985,
+      "balanceIndex": 0.68255121269679342
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.13977500865506057,
+        0.74108427857586,
+        0.11914071276907943
+      ],
+      "cost": 0.55468041515918343,
+      "quality": 0.75932505435700826,
+      "sustainability": 0.47275183347146527,
+      "balanceIndex": 0.75341626801766348
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.051731953634982807,
+        0.8713669813673488,
+        0.076901064997668439
+      ],
+      "cost": 0.47869164522257796,
+      "quality": 0.85679079396930091,
+      "sustainability": 0.35333515720700737,
+      "balanceIndex": 0.54032378725866337
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.10451518258213922,
+        0.79602757237779365,
+        0.099457245040067047
+      ],
+      "cost": 0.520274644294441,
+      "quality": 0.8256737522938451,
+      "sustainability": 0.39280044902072481,
+      "balanceIndex": 0.6177797557290472
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.76316935260407,
+        0,
+        0.23683064739592991
+      ],
+      "cost": 0.6062346853300673,
+      "quality": 0.4062346853300674,
+      "sustainability": 0.8933091386373011,
+      "balanceIndex": 0.50736275852711588
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.84555724320011383,
+        0.078109618785821067,
+        0.076333138014065161
+      ],
+      "cost": 0.86843956372786579,
+      "quality": 0.72305223111360661,
+      "sustainability": 0.56117007387200291,
+      "balanceIndex": 0.738211951402791
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.11069087340204993,
+        0.81290493804978847,
+        0.076404188548161667
+      ],
+      "cost": 0.51829353372608444,
+      "quality": 0.790644519068211,
+      "sustainability": 0.43490095390050842,
+      "balanceIndex": 0.6793317886014868
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.89209778997554923,
+        0.086632953312943364,
+        0.021269256711507471
+      ],
+      "cost": 0.71890560781100965,
+      "quality": 0.54657070542258157,
+      "sustainability": 0.746831979774719,
+      "balanceIndex": 0.76478483149449439
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.088974961248168755,
+        0.78093801138505126,
+        0.13008702736678007
+      ],
+      "cost": 0.53990146200262767,
+      "quality": 0.76749792330527988,
+      "sustainability": 0.46025912798312196,
+      "balanceIndex": 0.72873394408630543
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.054431487266492558,
+        0.94555357939635143,
+        1.4933337155988227E-5
+      ],
+      "cost": 0.43661134592739936,
+      "quality": 0.86253962641067461,
+      "sustainability": 0.34804052839515409,
+      "balanceIndex": 0.51022034020949936
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.053181136238773949,
+        0.94634750947522706,
+        0.00047135428599911
+      ],
+      "cost": 0.43186609168376294,
+      "quality": 0.87522206445349893,
+      "sustainability": 0.3328154948268911,
+      "balanceIndex": 0.48567813603040322
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.18920535547259018,
+        0.68210498541555975,
+        0.12868965911185
+      ],
+      "cost": 0.57904514043584487,
+      "quality": 0.74098161219923775,
+      "sustainability": 0.49674031669281415,
+      "balanceIndex": 0.80008221299373239
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.082867384386962756,
+        0.91713261561303727,
+        0
+      ],
+      "cost": 0.45749061683984005,
+      "quality": 0.83448225343092142,
+      "sustainability": 0.38308591154400468,
+      "balanceIndex": 0.57123875730296025
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.83443643598656414,
+        0,
+        0.16556356401343586
+      ],
+      "cost": 0.63596595753549323,
+      "quality": 0.43596595753549328,
+      "sustainability": 0.86213224511186792,
+      "balanceIndex": 0.56635169426709764
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.83209181777229513,
+        0.14885577085601631,
+        0.019052411371688675
+      ],
+      "cost": 0.69094127788721393,
+      "quality": 0.532273623472619,
+      "sustainability": 0.75964908351030891,
+      "balanceIndex": 0.74697892294714152
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.62346037973705892,
+        0.37653962026294113,
+        0
+      ],
+      "cost": 0.63721480334041025,
+      "quality": 0.52492694183877553,
+      "sustainability": 0.76247522302431969,
+      "balanceIndex": 0.73812665581525549
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.9122976208230239,
+        0.017776567014137414,
+        0.069925812162838649
+      ],
+      "cost": 0.89800734583543063,
+      "quality": 0.71044279693149359,
+      "sustainability": 0.58059632064168643,
+      "balanceIndex": 0.71591661060827994
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0,
+        0.95637792143901357,
+        0.043622078560986481
+      ],
+      "cost": 0.44425603821125575,
+      "quality": 0.84407775034131161,
+      "sustainability": 0.36632501607800561,
+      "balanceIndex": 0.542370153481486
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.889672957903885,
+        0.11032704209611502,
+        0
+      ],
+      "cost": 0.80584734281058878,
+      "quality": 0.66895923897036247,
+      "sustainability": 0.61049346275945127,
+      "balanceIndex": 0.83500710591387861
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.82817263985243272,
+        0.17133009218260317,
+        0.00049726796496407644
+      ],
+      "cost": 0.75439100590226393,
+      "quality": 0.63652366550670025,
+      "sustainability": 0.63656211344381841,
+      "balanceIndex": 0.88797982245060314
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.74463228706946893,
+        0.10093793893575452,
+        0.15442977399477656
+      ],
+      "cost": 0.6326718368467551,
+      "quality": 0.44138066349733723,
+      "sustainability": 0.85544724688039808,
+      "balanceIndex": 0.57701701325684562
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.99954828588199307,
+        0,
+        0.00045171411800690972
+      ],
+      "cost": 0.67104710221394659,
+      "quality": 0.47104710221394674,
+      "sustainability": 0.82883414245255482,
+      "balanceIndex": 0.63021141848304207
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.70021618913950934,
+        0,
+        0.29978381086049055
+      ],
+      "cost": 0.92708819946974241,
+      "quality": 0.72708819946974235,
+      "sustainability": 0.54319599108789141,
+      "balanceIndex": 0.67843943450597333
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.85501703208791224,
+        0.14384968606619217,
+        0.0011332818458957374
+      ],
+      "cost": 0.72479456874086756,
+      "quality": 0.57938056293607687,
+      "sustainability": 0.71056989287881978,
+      "balanceIndex": 0.82130485573880463
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.15521765087610637,
+        0.84262395157651582,
+        0.0021583975473778712
+      ],
+      "cost": 0.49849179342979189,
+      "quality": 0.79655788042857045,
+      "sustainability": 0.430613569326527,
+      "balanceIndex": 0.66092843832777592
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.87708590121893237,
+        0.047046248431513824,
+        0.075867850349553873
+      ],
+      "cost": 0.88197482169751551,
+      "quality": 0.71464742007465032,
+      "sustainability": 0.57285433091026572,
+      "balanceIndex": 0.7304961918844165
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.73844846194550673,
+        0.25862545721993491,
+        0.0029260808345582126
+      ],
+      "cost": 0.728301088000916,
+      "quality": 0.65699375731715437,
+      "sustainability": 0.61089714556315833,
+      "balanceIndex": 0.925575216599407
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.69244098334434423,
+        0.25648508769298167,
+        0.051073928962674028
+      ],
+      "cost": 0.681606099441681,
+      "quality": 0.56444193483227023,
+      "sustainability": 0.72135928722893683,
+      "balanceIndex": 0.811799963332365
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.82735503928434906,
+        0.13950128152657554,
+        0.033143679189075438
+      ],
+      "cost": 0.67707755463267982,
+      "quality": 0.50930298811670938,
+      "sustainability": 0.78499961547946,
+      "balanceIndex": 0.70460642216778546
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.071846715676575565,
+        0.92815328432342448,
+        0
+      ],
+      "cost": 0.59529637010837622,
+      "quality": 0.41392170661114747,
+      "sustainability": 0.88341753103131382,
+      "balanceIndex": 0.52131682364268661
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.87807936827275257,
+        0.12173424750625102,
+        0.0001863842209963444
+      ],
+      "cost": 0.7694673565203739,
+      "quality": 0.62766997190879925,
+      "sustainability": 0.65175715473440254,
+      "balanceIndex": 0.8619995506416771
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.4330136272130255,
+        0.19658299718615208,
+        0.37040337560082243
+      ],
+      "cost": 0.659118907172153,
+      "quality": 0.49319337810482411,
+      "sustainability": 0.7927669244098613,
+      "balanceIndex": 0.68247204417558383
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.858038642024532,
+        0.066972067354075793,
+        0.074989290621392271
+      ],
+      "cost": 0.87380849866829946,
+      "quality": 0.720626368419155,
+      "sustainability": 0.56487371772322859,
+      "balanceIndex": 0.73467956404830781
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.55135869006493832,
+        0.18613972159605913,
+        0.2625015883390025
+      ],
+      "cost": 0.8248443952359803,
+      "quality": 0.75041182835264608,
+      "sustainability": 0.50609370762624584,
+      "balanceIndex": 0.74499774597471047
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.962123301312068,
+        0,
+        0.037876698687932059
+      ],
+      "cost": 0.81072755320615042,
+      "quality": 0.61072755320615046,
+      "sustainability": 0.68573834920385845,
+      "balanceIndex": 0.79500856385238683
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.95209916725153487,
+        0.041913154228414705,
+        0.0059876785200505033
+      ],
+      "cost": 0.783098815306399,
+      "quality": 0.60222961836457944,
+      "sustainability": 0.6931340184659881,
+      "balanceIndex": 0.81102001870726448
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.041809965238660513,
+        0.95710894530917867,
+        0.0010810894521607419
+      ],
+      "cost": 0.42709910517997118,
+      "quality": 0.87625492293375717,
+      "sustainability": 0.33090378236343149,
+      "balanceIndex": 0.480695356215985
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.13318889436612605,
+        0.8547601916886749,
+        0.012050913945199046
+      ],
+      "cost": 0.5886934708384377,
+      "quality": 0.44230995179620186,
+      "sustainability": 0.84992256280829481,
+      "balanceIndex": 0.57544568885224467
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.91972648990621186,
+        0.080273510093788053,
+        0
+      ],
+      "cost": 0.77788274740236385,
+      "quality": 0.61634106149906287,
+      "sustainability": 0.67810835596859564,
+      "balanceIndex": 0.83136925558194563
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.98918023358042051,
+        0.00043429037436503549,
+        0.010385476045214387
+      ],
+      "cost": 0.70496195211506263,
+      "quality": 0.50506730357596308,
+      "sustainability": 0.79313142937193348,
+      "balanceIndex": 0.69019168446532775
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.88401393239283543,
+        0.054067986141265109,
+        0.061918081465899361
+      ],
+      "cost": 0.85338100177046594,
+      "quality": 0.68773382954969342,
+      "sustainability": 0.60173855330524351,
+      "balanceIndex": 0.77453331045851459
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.87245478447056179,
+        0.12754521552943815,
+        0
+      ],
+      "cost": 0.76083505149544917,
+      "quality": 0.61889505863359018,
+      "sustainability": 0.65837868950437894,
+      "balanceIndex": 0.86388398678866762
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.077112700715579269,
+        0.7989131034251773,
+        0.12397419585924334
+      ],
+      "cost": 0.53056013964301452,
+      "quality": 0.77968553094410709,
+      "sustainability": 0.44524253650090578,
+      "balanceIndex": 0.70221739420774831
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.17196916888842281,
+        0.70700006904563961,
+        0.12103076206593759
+      ],
+      "cost": 0.56880140544329116,
+      "quality": 0.746456379705863,
+      "sustainability": 0.48957482725233548,
+      "balanceIndex": 0.78463308650245756
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.86682446026067006,
+        0.13203006348180613,
+        0.0011454762575238413
+      ],
+      "cost": 0.78733834814477943,
+      "quality": 0.66129837208267106,
+      "sustainability": 0.628044243371379,
+      "balanceIndex": 0.85075945385491925
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.88378629071564152,
+        0.054066018090240836,
+        0.062147691194117692
+      ],
+      "cost": 0.86299083574096114,
+      "quality": 0.69864218737391992,
+      "sustainability": 0.59041041387011661,
+      "balanceIndex": 0.75950523414269089
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.14894374227694279,
+        0.848399104056869,
+        0.0026571536661882046
+      ],
+      "cost": 0.49125415291985441,
+      "quality": 0.81235409787773094,
+      "sustainability": 0.41296990067522665,
+      "balanceIndex": 0.631118600763347
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.91366391417833115,
+        0.013496081606237796,
+        0.072840004215431048
+      ],
+      "cost": 0.88868544567039465,
+      "quality": 0.69775692244971144,
+      "sustainability": 0.59374527895301588,
+      "balanceIndex": 0.73219504255531676
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.050426297170076094,
+        0.94957370282992382,
+        0
+      ],
+      "cost": 0.49469980048628864,
+      "quality": 0.69619224958492565,
+      "sustainability": 0.54590289626165955,
+      "balanceIndex": 0.79282892300502972
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.8470573057690135,
+        0.12424021101669021,
+        0.028702483214296231
+      ],
+      "cost": 0.6860102477751211,
+      "quality": 0.51684664369758082,
+      "sustainability": 0.77643606284784894,
+      "balanceIndex": 0.71846515533303812
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.17317252442614745,
+        0.71146552572385169,
+        0.11536194985000089
+      ],
+      "cost": 0.56792264365075729,
+      "quality": 0.7333337182158759,
+      "sustainability": 0.50529935721678121,
+      "balanceIndex": 0.80664770233406635
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.13534021190969431,
+        0.78073235082587555,
+        0.0839274372644301
+      ],
+      "cost": 0.53341148534702776,
+      "quality": 0.77994787374045638,
+      "sustainability": 0.44862557125682312,
+      "balanceIndex": 0.70682769742998064
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.57756120422922474,
+        0.40999958844238632,
+        0.012439207328388891
+      ],
+      "cost": 0.60549586049484561,
+      "quality": 0.4218845008813899,
+      "sustainability": 0.87570323275668749,
+      "balanceIndex": 0.53735945601546287
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0,
+        0.99955752876605031,
+        0.00044247123394968834
+      ],
+      "cost": 0.57478237237003638,
+      "quality": 0.46312227941609058,
+      "sustainability": 0.824252147410103,
+      "balanceIndex": 0.613015208732894
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.5879589712084935,
+        0.14613491216233657,
+        0.26590611662916996
+      ],
+      "cost": 0.847403288881096,
+      "quality": 0.74717509328755694,
+      "sustainability": 0.512372625865663,
+      "balanceIndex": 0.73169886979896037
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.8055855679906212,
+        0.19397008409216224,
+        0.000444347917216569
+      ],
+      "cost": 0.75336163127781841,
+      "quality": 0.65364614539528987,
+      "sustainability": 0.62522506969614788,
+      "balanceIndex": 0.89222772628013181
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.925731043423584,
+        0.0688010730848369,
+        0.0054678834915791868
+      ],
+      "cost": 0.77782539461961364,
+      "quality": 0.60987474061130487,
+      "sustainability": 0.683754725618193,
+      "balanceIndex": 0.82543247025634647
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.1112981332720336,
+        0.78276079942656085,
+        0.10594106730140546
+      ],
+      "cost": 0.52557119988741308,
+      "quality": 0.831419801393151,
+      "sustainability": 0.38623028236411167,
+      "balanceIndex": 0.60983975324700657
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.63155241028565434,
+        0.024633562024662856,
+        0.34381402768968272
+      ],
+      "cost": 0.92000585147577507,
+      "quality": 0.73713639841738765,
+      "sustainability": 0.52615861366952754,
+      "balanceIndex": 0.67723632259652966
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.84547908651091053,
+        0.11747047610334894,
+        0.037050437385740514
+      ],
+      "cost": 0.71650692123006166,
+      "quality": 0.555364885979733,
+      "sustainability": 0.73584319570271883,
+      "balanceIndex": 0.78278744315421911
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.95205651485544185,
+        0.041911276591591634,
+        0.0060322085529664641
+      ],
+      "cost": 0.78310517597122109,
+      "quality": 0.60223543444762306,
+      "sustainability": 0.693125636785241,
+      "balanceIndex": 0.81102388739674425
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.0011085562579531663,
+        0.99869211983037476,
+        0.00019932391167202653
+      ],
+      "cost": 0.564420185701553,
+      "quality": 0.48920711867612576,
+      "sustainability": 0.79296261867134432,
+      "balanceIndex": 0.65962943772773341
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.84874333485026932,
+        0.12447080386458544,
+        0.026785861285145384
+      ],
+      "cost": 0.685889921648435,
+      "quality": 0.51677803877195461,
+      "sustainability": 0.77655795995368782,
+      "balanceIndex": 0.718306584581895
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.92239032278967481,
+        0,
+        0.0776096772103252
+      ],
+      "cost": 0.907648298572462,
+      "quality": 0.70764829857246181,
+      "sustainability": 0.584382023507642,
+      "balanceIndex": 0.707190281419628
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.32645379551613585,
+        0.44934673330185837,
+        0.22419947118200584
+      ],
+      "cost": 0.61653856867285384,
+      "quality": 0.46975870424973487,
+      "sustainability": 0.81884499922107246,
+      "balanceIndex": 0.63337503996079214
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.81543418956600155,
+        0.1638115615041017,
+        0.020754248929896812
+      ],
+      "cost": 0.6189046092389241,
+      "quality": 0.42867960060624655,
+      "sustainability": 0.86947497617477765,
+      "balanceIndex": 0.55122089441185906
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.92885986115904129,
+        0,
+        0.071140138840958683
+      ],
+      "cost": 0.907009379186849,
+      "quality": 0.70700937918684892,
+      "sustainability": 0.5856815508947304,
+      "balanceIndex": 0.7080210071968942
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.054570148107663689,
+        0.94541488051342915,
+        1.4971378907105618E-5
+      ],
+      "cost": 0.43669953192135486,
+      "quality": 0.86244939535810816,
+      "sustainability": 0.348156243937409,
+      "balanceIndex": 0.51043124061236189
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.090213024667679192,
+        0.90815125425322263,
+        0.0016357210790982173
+      ],
+      "cost": 0.47077187974658408,
+      "quality": 0.80459452129271425,
+      "sustainability": 0.41897419407315,
+      "balanceIndex": 0.62918444898296411
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.61082834800681218,
+        0.09835007013891528,
+        0.29082158185427254
+      ],
+      "cost": 0.85589473290298579,
+      "quality": 0.71883377230403844,
+      "sustainability": 0.54558764904758972,
+      "balanceIndex": 0.75552337679034642
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.69060512856925638,
+        0.26118472745187338,
+        0.048210143978870218
+      ],
+      "cost": 0.67867360308715352,
+      "quality": 0.561213473520461,
+      "sustainability": 0.72478547939067561,
+      "balanceIndex": 0.80614804626447656
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.86546946273658054,
+        0.13270232196791806,
+        0.0018282152955014157
+      ],
+      "cost": 0.78981685395007084,
+      "quality": 0.66522322127574707,
+      "sustainability": 0.623856032028116,
+      "balanceIndex": 0.84825512695387784
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.12766045644764895,
+        0.77629860447478471,
+        0.096040939077566251
+      ],
+      "cost": 0.53666208917010128,
+      "quality": 0.77710720383406129,
+      "sustainability": 0.45153827415130787,
+      "balanceIndex": 0.71301820425687856
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        1,
+        0,
+        0
+      ],
+      "cost": 0.60110544273362743,
+      "quality": 0.40110544273362753,
+      "sustainability": 0.89889455726637257,
+      "balanceIndex": 0.49686994306050591
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.66757685351978369,
+        0.3227789618134681,
+        0.009644184666748299
+      ],
+      "cost": 0.66518760695858692,
+      "quality": 0.57071394231311745,
+      "sustainability": 0.71376044127212823,
+      "balanceIndex": 0.82580818549434265
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.15533654789453069,
+        0.72668297734025467,
+        0.11798047476521463
+      ],
+      "cost": 0.5596339260619092,
+      "quality": 0.762140869125673,
+      "sustainability": 0.47018410600978222,
+      "balanceIndex": 0.75176705688540857
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.83020512534027979,
+        0.14866467917042034,
+        0.021130195489299786
+      ],
+      "cost": 0.61922802607915706,
+      "quality": 0.42795517808437272,
+      "sustainability": 0.87036924866616561,
+      "balanceIndex": 0.54980131771265928
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.16139316830812311,
+        0.7198071859878119,
+        0.11879964570406498
+      ],
+      "cost": 0.56333385133611624,
+      "quality": 0.75223213029024161,
+      "sustainability": 0.48224177431301024,
+      "balanceIndex": 0.77128561643996618
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.72904017643594288,
+        0.27065677995621285,
+        0.00030304360784439897
+      ],
+      "cost": 0.65028043818141967,
+      "quality": 0.50806808555195448,
+      "sustainability": 0.78357880040561256,
+      "balanceIndex": 0.70481742289675053
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.3290034938775282,
+        0.4785983207389829,
+        0.192398185383489
+      ],
+      "cost": 0.61417263944452982,
+      "quality": 0.473567959870644,
+      "sustainability": 0.81453597651461107,
+      "balanceIndex": 0.64031964044697665
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.43393286124127251,
+        0.19017684391110684,
+        0.37589029484762071
+      ],
+      "cost": 0.658373758076931,
+      "quality": 0.49041877451621918,
+      "sustainability": 0.79595508798669334,
+      "balanceIndex": 0.677021358391815
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.11189119670528302,
+        0.78693182003106921,
+        0.10117698326364766
+      ],
+      "cost": 0.52387189461892048,
+      "quality": 0.82801195022315255,
+      "sustainability": 0.39040395094366465,
+      "balanceIndex": 0.61546615730530174
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.32590420152677985,
+        0.47324436801189079,
+        0.20085143046132936
+      ],
+      "cost": 0.61542814820113456,
+      "quality": 0.47666368346495031,
+      "sustainability": 0.81087563936735019,
+      "balanceIndex": 0.64660579618366953
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.079271529208495881,
+        0.91804022916178274,
+        0.0026882416297213342
+      ],
+      "cost": 0.45061891361971013,
+      "quality": 0.85531631474560643,
+      "sustainability": 0.35804538526576374,
+      "balanceIndex": 0.53156953350879221
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.15561328447128317,
+        0.84161057735050715,
+        0.0027761381782097742
+      ],
+      "cost": 0.49482008000490674,
+      "quality": 0.80892916995641051,
+      "sustainability": 0.41738441131089365,
+      "balanceIndex": 0.639264370074196
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.86630111422435219,
+        0.13369888577564781,
+        0
+      ],
+      "cost": 0.76647281713941251,
+      "quality": 0.63051571020328323,
+      "sustainability": 0.64647847589541019,
+      "balanceIndex": 0.86899171109424866
+    },
+    {
+      "scenario": "Disruption",
+      "supplierNames": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "allocations": [
+        0.89219718444859586,
+        0.10774965233073043,
+        5.3163220673685778E-5
+      ],
+      "cost": 0.8151996546102982,
+      "quality": 0.679437235603398,
+      "sustainability": 0.60022981487542293,
+      "balanceIndex": 0.82171868818272009
+    }
+  ]

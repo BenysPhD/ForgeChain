@@ -1,0 +1,30 @@
+await SupplierAgreement.createAgreement(100, 10, Math.floor(Date.now() / 1000) + 3600, "QmYourIpfsHash");
+const SupplierAgreement = await ethers.getContractAt("SupplierAgreement", "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0");
+await contract.agreement();
+const contract = new ethers.Contract(address, abi, signer);
+const [signer] = await ethers.getSigners();
+const address ="0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0";
+const abi = contractJson.abi;
+const contractJson = JSON.parse(json);
+const json = fs.readFileSync('./artifacts/contracts/SupplierAgreement.sol/SupplierAgreement.json', 'utf8');
+const fs = require('fs');
+const abi = contractJson.abi;
+const contractJson = JSO));
+const fs = require('fs');
+const contract = new ethers.Contract(address, abi, signer);
+const [signer] = await ethers.getSigners();
+const adress ="0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0";
+const abi = contractJson.abi;
+const contractJson = JSON.parse(fs.readFileSync('./artifacts/contracts/SupplierAgreement.sol/SupplierAgreement.json', 'utf8'));
+const fs = require('fs');
+Modifier
+Copier
+js
+const fs = require('fs');
+Modifier
+Copier
+js
+const { ethers } = requiconst fs = require('fs');
+const fs = require('fs');
+await SupplierAgreement.agreement()
+const SupplierAgreement = await ethers.getContractAt("SupplierAgreement", "ADRESSE");

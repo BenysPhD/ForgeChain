@@ -1,0 +1,83 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "OracleMock",
+  "sourceName": "contracts/OracleMock.sol",
+  "abi": [
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "int256",
+          "name": "newAnswer",
+          "type": "int256"
+        }
+      ],
+      "name": "LatestAnswerUpdated",
+      "type": "event"
+    },
+    {
+      "inputs": [],
+      "name": "latestAnswer",
+      "outputs": [
+        {
+          "internalType": "int256",
+          "name": "",
+          "type": "int256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "latestRoundData",
+      "outputs": [
+        {
+          "internalType": "uint80",
+          "name": "roundId",
+          "type": "uint80"
+        },
+        {
+          "internalType": "int256",
+          "name": "answer",
+          "type": "int256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "startedAt",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "updatedAt",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint80",
+          "name": "answeredInRound",
+          "type": "uint80"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "int256",
+          "name": "_answer",
+          "type": "int256"
+        }
+      ],
+      "name": "setLatestAnswer",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x608060405234801561001057600080fd5b50610124806100206000396000f3fe6080604052348015600f57600080fd5b5060043610603c5760003560e01c806304ea97b014604157806350d25bcd146052578063feaf968c14606d575b600080fd5b6050604c36600460d6565b609b565b005b605a60005481565b6040519081526020015b60405180910390f35b60008054604080518381526020810192909252429082018190526060820152608081019190915260a0016064565b60008190556040518181527f8e4e26ef193c8838546bdc7f69655bf260ace719057e892055b21c089aaf42d29060200160405180910390a150565b60006020828403121560e757600080fd5b503591905056fea26469706673582212201c9b39b7c4e0d5f05dc0fac1d847eb70d69340e173fdeda78ccf4f9f74d96b3864736f6c63430008140033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b5060043610603c5760003560e01c806304ea97b014604157806350d25bcd146052578063feaf968c14606d575b600080fd5b6050604c36600460d6565b609b565b005b605a60005481565b6040519081526020015b60405180910390f35b60008054604080518381526020810192909252429082018190526060820152608081019190915260a0016064565b60008190556040518181527f8e4e26ef193c8838546bdc7f69655bf260ace719057e892055b21c089aaf42d29060200160405180910390a150565b60006020828403121560e757600080fd5b503591905056fea26469706673582212201c9b39b7c4e0d5f05dc0fac1d847eb70d69340e173fdeda78ccf4f9f74d96b3864736f6c63430008140033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
