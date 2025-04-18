@@ -98,11 +98,5 @@ This project is licensed under the MIT License.
 
 ---
 
-## 🧩 DOI via Zenodo (optional steps)
-1. Link your GitHub to [Zenodo](https://zenodo.org/account/settings/github/)
-2. Select your repo: `BenysPhD/ForgeChain`
-3. Push a release/tag (`v1.0.0`) to generate a DOI
-4. Paste the DOI badge into this README and update citation above
 
----
 
