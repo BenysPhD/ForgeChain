@@ -75,23 +75,29 @@ npm install && npm run dev
 If you use this project in academic work:
 ```bibtex
 @misc{benyelles2025forgechain,
-  author       = {Mohammed El Amine Benyelles},
+  author       = {Mohammed El Amine Benyelles and Lamia Triqui and Mohammed Dahane},
   title        = {ForgeChain: Blockchain-based DApp for Sustainable Supplier Selection},
   year         = {2025},
-  publisher    = {GitHub},
-  journal      = {GitHub repository},
   howpublished = {\url{https://github.com/BenysPhD/ForgeChain}},
-  doi          = https://doi.org/10.5281/zenodo.15243177
+  note         = {GitHub repository, DOI: \url{https://doi.org/10.5281/zenodo.15243177}}
 }
+
+ 
 ```
 
 ## 📜 License
 This project is licensed under the MIT License.
 
 ## 📧 Contact
-- Author: Mohammed El Amine Benyelles  
-- University of Tlemcen; Department of Industrial Engineering, MELT Laboratory PhD student
-- Email: mohammedelamine.benyelles@univ-tlemcen.dz
+- Authors:
+  - Mohammed El Amine Benyelles  
+    Université de Tlemcen, Département de Génie Industriel, Laboratoire MELT  
+    📧 mohammedelamine.benyelles@univ-tlemcen.dz (corresponding author)
+  - Lamia Triqui  
+    Université de Tlemcen, Laboratoire MELT
+  - Mohammed Dahane  
+    Université de Lorraine, LGIPM, Metz, France
+
 
 ---
 > "Towards a decentralized, transparent, and multi-objective supplier management platform in Industry 4.0."
