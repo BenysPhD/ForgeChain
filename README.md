@@ -81,7 +81,7 @@ If you use this project in academic work:
   publisher    = {GitHub},
   journal      = {GitHub repository},
   howpublished = {\url{https://github.com/BenysPhD/ForgeChain}},
-  doi          = {10.5281/zenodo.TODO}
+  doi          = https://doi.org/10.5281/zenodo.15243177
 }
 ```
 
@@ -90,7 +90,7 @@ This project is licensed under the MIT License.
 
 ## 📧 Contact
 - Author: Mohammed El Amine Benyelles  
-- University of Tlemcen – Master Thesis  
+- University of Tlemcen; Department of Industrial Engineering, MELT Laboratory PhD student
 - Email: mohammedelamine.benyelles@univ-tlemcen.dz
 
 ---
