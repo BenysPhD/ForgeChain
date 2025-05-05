@@ -90,14 +90,8 @@ This project is licensed under the MIT License.
 
 ## 📧 Contact
 - Authors:
-  - Mohammed El Amine Benyelles  
-    Université de Tlemcen, Département de Génie Industriel, Laboratoire MELT  
-    📧 mohammedelamine.benyelles@univ-tlemcen.dz (corresponding author)
-  - Lamia Triqui  
-    Université de Tlemcen, Laboratoire MELT
-  - Mohammed Dahane  
-    Université de Lorraine, LGIPM, Metz, France
-
+  -anonymous 
+     
 
 ---
 > "Towards a decentralized, transparent, and multi-objective supplier management platform in Industry 4.0."
