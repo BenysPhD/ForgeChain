@@ -74,8 +74,8 @@ npm install && npm run dev
 ## 🌍 Citation
 If you use this project in academic work:
 ```bibtex
-@misc{benyelles2025forgechain,
-  author       = {Mohammed El Amine Benyelles and Lamia Triqui and Mohammed Dahane},
+@misc{anounymous2025forgechain,
+  author       = {anonymous},
   title        = {ForgeChain: Blockchain-based DApp for Sustainable Supplier Selection},
   year         = {2025},
   howpublished = {\url{https://github.com/BenysPhD/ForgeChain}},
